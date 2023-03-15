@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Dilnaz Kaur" />
+    <meta name="description" content="shape-select" />
+    <meta name="keywords" content="html,css,web development," />
+    <title>SHAPE FACTORY</title>
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="x-icon" href="image/icon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet" />     
+    <link rel="stylesheet" href="style/style.css" media="all" />
+  <script src="script/script.js" defer></script>
+</head>
+<body>
+	<h1>Shape Factory</h1>
+	<div class="controls">
+		<label for="shape-select">Select a shape:</label>
+		<select id="shape-select">
+			<option value="circle">Circle</option>
+			<option value="square">Square</option>
+		</select>
+		<label for="color-select">Select a color:</label>
+		<select id="color-select">
+			<option value="#0f9">Blue</option>
+			<option value="#9f0">Green</option>
+			<option value="#f90">Orange</option>
+			<option value="#f09">Pink</option>
+			<option value="#90f">Purple</option>
+		</select>
+		<button id="create-btn">Create Shape</button>
+	</div>
+	<div id="grid-container"></div>
+</body>
+</html>
